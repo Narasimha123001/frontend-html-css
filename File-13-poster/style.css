@@ -1,0 +1,20 @@
+body{
+    background-color:black;
+}
+.motivation{
+color: azure;
+text-align: center;
+width: auto;
+
+}
+h1{
+    text-transform: uppercase;
+    width: 100%;
+    
+}
+.poster{
+    border: 10px solid white;
+    margin-top: 25px;
+    
+
+}
