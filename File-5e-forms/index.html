@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Details Forms</title>
+</head>
+<body>
+    <form>
+        <label for="userneme">userneme</label>
+        <input type="text" id="userneme" required> <br>
+
+        <label for="password">Password</label>
+        <input type="password" id="password" minlength="6" maxlength="9" required> <br>
+
+
+        <label for="email">Email</label>
+        <input type="email" id="email" required> <br>
+
+        <label for="Phone #">Phone No:</label>
+        <input type="tel" id="Phone" required  pattern="[0-9]{3}-[0-9]{3}[0-9]{4}" maxlength="12"> <br> 
+
+        <label for="Birthday">DOB:</label>
+        <input type="date" id="Birthday" required> <br>
+
+        <label for="quatity"> quatity</label>
+        <input type="number" min="0" max="99"> <br>
+
+        <label for="title">title :</label>
+
+        <label for="Mr."> Mr.</label>
+        <input type="radio" id="Mr." value="Mr." name="title">
+        <label for="Ms."> Ms.</label>
+        <input type="radio" id="Ms." value="Ms." name="title">
+        <label for="PhD."> PhD.</label>
+        <input type="radio" id="PhD." value="PhD." name="title"> <br>
+
+        <label for="Payment">Payment</label>
+        <select>
+            <option value="No">SelectType</option>
+            <option value="visa">Visa</option>
+            <option value="Master Card">Master Card</option>
+            <option value="Rupay">Rupay</option>
+        </select> <br>
+
+
+        <label for="Subscride">Subscride</label>
+        <input type="checkbox"><br>
+
+        <label for="TextArea">Commit :</label>
+        <textarea  id="TextArea" rows="3" cols="25"></textarea> <br>
+
+        <label for="file">File-</label>
+        <input type="file" id="file" accept="image/png"> <br>
+
+        <input type="reset"> 
+        <input type="submit"> <br>
+    </form>
+</body>
+</html>
