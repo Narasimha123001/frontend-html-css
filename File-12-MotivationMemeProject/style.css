@@ -1,0 +1,19 @@
+body{
+    background-color: black;
+}
+.Motivation{
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+   
+    font-weight: 100;
+   font-style: normal;
+}
+.photo{
+    border: 10px solid white;
+    margin-top: 100px;
+}
+h1{
+    text-transform: uppercase;
+    width: 100%
+}
